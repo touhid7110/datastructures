@@ -4,7 +4,7 @@ from trie_implementation import Trie
 nltk.download('gutenberg')
 from nltk.corpus import gutenberg
 
-corpora = gutenberg.raw(r'C:\Users\touhi\OneDrive\Documents\python_programs\trie\bane_dialogues.txt')
+corpora = gutenberg.raw(r'PROVIDE THE FULL PATH\bane_dialogues.txt')
 spell_checker = Trie()
 for word in corpora.split():
     word = word.lower()
